@@ -6,7 +6,8 @@ ini_set('display_errors', 'On');
 $db_host = 'localhost';
 $db_user = 'root';
 $db_pass = '';
-$db_name = 'Catalogue of CDs';
+// CHANGE HERE TO YOUR DATABASE NAME
+$db_name = 'YOUR DATABASE';
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 if ($conn->connect_errno) echo "failed to connect to database";
 ?>
